@@ -160,6 +160,56 @@ hero sectio styling end
   font-size: 1rem;
   padding: 20px 0 50px;
 }
+/*--------------------------
+ upcoming page section end 
+ upcoming page section end 
+ upcoming page section end 
+ upcoming page section end 
+ upcoming page section end 
+---------------- */
+
+/*----------------------
+ group page section start 
+ group page section start 
+ group page section start 
+ group page section start 
+ group page section start 
+ group page section start 
+----------------- */
+
+.grop-page-sectino a.active-button {
+  background: #000066;
+  color: #ffffff;
+}
+.group-page-section img {
+  height: 200px;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.group-page-section h1 {
+  padding: 20px 25px 0px 20px;
+  font-size: 1.7rem;
+  padding-bottom: 10px;
+}
+.group-page-section p {
+  padding: 0px 0 0px 20px;
+}
+.group-rating {
+  padding: 15px 0 15px 20px;
+}
+.group-rating i {
+  color: orange;
+}
+
+/*-----------------------
+ group page section end 
+ group page section end 
+ group page section end 
+ group page section end 
+ group page section end 
+--------------------- */
+
 .blog-write-content {
   padding: 10px;
 }
@@ -249,6 +299,10 @@ hero sectio styling end
     margin-bottom: 0px;
     margin-bottom: -30px;
   }
+  .artical-button-section {
+    height: 210px;
+  }
+  /* ------------article button ----------- */
 }
 @media only screen and (min-width: 993px) and (max-width: 1100px) {
   .hero-content-write h1 {
@@ -261,6 +315,9 @@ hero sectio styling end
     display: block;
     margin-bottom: 0px;
     margin-bottom: -30px;
+  }
+  .artical-button-section {
+    height: 210px;
   }
 }
 /* ---------------------
