@@ -16,3 +16,20 @@
 /*---------------
    nav section styling start 
    --------------- */
+
+/*-----------------
+    media quary add 
+   ----------------- */
+
+/* ---------------------
+   Dekstop responsive media quary up to 576
+   ----------------- */
+@media (min-width: 575px) and(max-width:992px) {
+}
+
+/* ---------------------
+   mobile responsive media quary up to 576
+   ----------------- */
+
+@media (max-width: 576px) {
+}
