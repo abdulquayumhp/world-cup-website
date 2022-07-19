@@ -87,6 +87,79 @@ main {
     transform: scale(0.5);
   }
 }
+
+/* --------------
+hero sectio styling end 
+------------- */
+.artical {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.artical-button-section {
+  width: 300px;
+  height: 210px;
+  background: #000000;
+  text-align: center;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+.artical-button-section a {
+  display: block;
+  background: #fff;
+  margin: 20px 30px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 15px;
+}
+.artical-button-section a.active-button {
+  background: #000066;
+  color: #ffffff;
+}
+.artical-blog-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.blog-section-content {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+.blog-section-content img {
+  width: 100%;
+}
+.blog-write-content {
+  padding: 10px;
+}
+.blog-write-content h1 {
+  padding: 10px 0 20px;
+}
+.blog-section-content .blog-button {
+  padding: 3px 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.blog-footer-item {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.blog-footer-item .fa-clock {
+  padding-right: 5px;
+}
+.blog-footer-item .fa-comment-alt {
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+/*------------------
+ view all buttton for responsive
+----------------- */
+.all-blog-item-button {
+  margin: 50px 0;
+  text-align: center;
+  display: none;
+}
 /*-----------------
     media quary add 
    ----------------- */
@@ -134,6 +207,44 @@ main {
     padding: 50px 0 0 50px;
     color: #ffffff;
   }
+
+  /*--------------
+   artocal section blog seciton responsive 
+  ----------- */
+  .artical {
+    flex-wrap: wrap;
+  }
+  .artical-button-section {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    margin-right: 00px;
+    margin-bottom: 30px;
+  }
+  .artical-button-section a {
+    display: inline;
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px 25px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .artical-blog-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+  #blog-for-responsive {
+    display: none;
+  }
+  /*------------
+   view all responsive button 
+  ------------- */
+  .all-blog-item-button {
+    display: block;
+  }
 }
 
 /* ---------------------
@@ -165,5 +276,42 @@ main {
     margin-bottom: -30px;
     width: 100%;
     padding-top: 20px;
+  }
+  /*-------------------
+   hero section responsive styling end 
+  ----------------  */
+  .artical {
+    flex-wrap: wrap;
+  }
+  .artical-button-section {
+    width: auto;
+    height: auto;
+    background: #fff;
+    margin-right: 00px;
+    margin-bottom: 30px;
+  }
+  .artical-button-section a {
+    display: block;
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+    border: 1px solid rgb(219, 219, 219);
+  }
+  .artical-blog-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  #blog-for-responsive {
+    display: none;
+  }
+  /*------------
+   view all responsive button 
+  ------------- */
+  .all-blog-item-button {
+    display: block;
   }
 }
