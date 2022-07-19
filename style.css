@@ -129,6 +129,37 @@ hero sectio styling end
 .blog-section-content img {
   width: 100%;
 }
+
+/*---------------------------
+ upcoming match page section start 
+ upcoming match page section start 
+ upcoming match page section start 
+ upcoming match page section start 
+ --------------- */
+.flag-page-container {
+  padding-top: 50px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+  padding: 50px 4px 0;
+}
+.flag-page-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.flag-page-content h1 {
+  font-size: 3rem;
+}
+.flag-page-container h2 {
+  font-size: 2rem;
+  padding: 0 30px;
+}
+.flag-page-container p {
+  font-size: 1rem;
+  padding: 20px 0 50px;
+}
 .blog-write-content {
   padding: 10px;
 }
