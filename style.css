@@ -90,6 +90,9 @@ main {
 
 /* --------------
 hero sectio styling end 
+hero sectio styling end 
+hero sectio styling end 
+hero sectio styling end 
 ------------- */
 .artical {
   margin-top: 100px;
@@ -107,11 +110,11 @@ hero sectio styling end
 .artical-button-section a {
   display: block;
   background: #fff;
-  margin: 20px 30px;
-  padding: 10px 20px;
+  margin: 20px 10px;
+  padding: 10px 10px;
   border-radius: 10px;
   color: #000000;
-  font-size: 14px;
+  font-size: 12px;
 }
 .artical-button-section a.active-button {
   background: #000066;
@@ -288,7 +291,12 @@ hero sectio styling end
 }
 /*-----------------
     media quary add 
+    media quary add 
+    media quary add 
+    media quary add 
+    media quary add 
    ----------------- */
+
 @media only screen and (min-width: 1100px) and (max-width: 1252px) {
   .hero-content-write p {
     display: none;
@@ -299,10 +307,10 @@ hero sectio styling end
     margin-bottom: 0px;
     margin-bottom: -30px;
   }
+  /* ------------article button ----------- */
   .artical-button-section {
     height: 210px;
   }
-  /* ------------article button ----------- */
 }
 @media only screen and (min-width: 993px) and (max-width: 1100px) {
   .hero-content-write h1 {
@@ -315,6 +323,7 @@ hero sectio styling end
     display: block;
     margin-bottom: 0px;
     margin-bottom: -30px;
+    width: 300px;
   }
   .artical-button-section {
     height: 210px;
@@ -381,6 +390,9 @@ hero sectio styling end
 }
 
 /* ---------------------
+   mobile responsive media quary up to 576px
+   mobile responsive media quary up to 576px
+   mobile responsive media quary up to 576px
    mobile responsive media quary up to 576px
    ----------------- */
 
