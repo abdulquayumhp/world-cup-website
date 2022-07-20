@@ -102,6 +102,7 @@ hero sectio styling end
   display: flex;
   justify-content: center;
 }
+/*--------------- artical buttton section ------------- */
 .artical-button-section {
   width: 300px;
   height: 200px;
@@ -119,10 +120,14 @@ hero sectio styling end
   color: #000000;
   font-size: 12px;
 }
+
 .artical-button-section a.active-button {
   background: #000066;
   color: #ffffff;
 }
+/*--------------- artical buttton section end  ------------- */
+
+/* ------------------article/blog section ------------ */
 .artical-blog-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -215,6 +220,8 @@ hero sectio styling end
  group page section end 
  group page section end 
 --------------------- */
+
+/*---------------- blog section div ---------------- */
 
 .blog-write-content {
   padding: 10px;
