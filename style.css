@@ -79,6 +79,8 @@ main {
   animation: animation 0.5s linear infinite;
 }
 
+/*----------------------------- animation start ---------------------- */
+
 @keyframes animation {
   0% {
     transform: scale(1);
@@ -88,6 +90,7 @@ main {
   }
 }
 
+/* -------------------buttton animation end --------------- */
 /* --------------
 hero sectio styling end 
 hero sectio styling end 
