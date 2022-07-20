@@ -567,4 +567,8 @@ hero sectio styling end
   .footer-menu a {
     margin: 0 10px;
   }
+
+  .footer-social-icon {
+    margin-top: 20px;
+  }
 }
